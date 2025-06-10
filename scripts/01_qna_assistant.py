@@ -51,7 +51,7 @@ class QnAAssistant:
         
         try:
             response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "You are a helpful tutor. Answer questions based on the provided context."},
                     {"role": "user", "content": f"Context:\n{self.context}\n\nQuestion: {question}"}
