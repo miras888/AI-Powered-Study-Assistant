@@ -75,7 +75,7 @@ class NotesGenerator:
             }"""
             
             outline_response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "You are a professional note-taker and educator."},
                     {"role": "user", "content": f"{outline_prompt}\n\nContent:\n{self.context}"}
