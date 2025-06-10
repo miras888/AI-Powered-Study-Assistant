@@ -72,7 +72,3 @@ python scripts/02_generate_notes.py
 - Python 3.8+
 - OpenAI API key
 - Required Python packages (see requirements.txt)
-
-## License
-
-MIT License 
